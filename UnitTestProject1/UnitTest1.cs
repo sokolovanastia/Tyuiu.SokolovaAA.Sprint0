@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
-namespace Tyuiu.SokolovaAA.Sprint0.Task6.V0.Test
+namespace UnitTestProject1
 {
     [TestClass]
     public class UnitTest1

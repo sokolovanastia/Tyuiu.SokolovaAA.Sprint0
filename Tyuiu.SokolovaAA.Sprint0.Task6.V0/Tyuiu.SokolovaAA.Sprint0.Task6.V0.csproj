@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9CD54700-FCF1-4BDE-A9FD-11B1B04C3ABD}</ProjectGuid>
+    <ProjectGuid>{58ED1FE3-BFB2-4CDC-93F8-FC4950573282}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Tyuiu.SokolovaAA.Sprint0.Task6.V0</RootNamespace>
     <AssemblyName>Tyuiu.SokolovaAA.Sprint0.Task6.V0</AssemblyName>
@@ -48,6 +48,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tyuiu.SokolovaAA.Sprint0.Task6.V0.Lib\Tyuiu.SokolovaAA.Sprint0.Task6.V0.Lib.csproj">
+      <Project>{a4885e6f-f58d-4305-8fa2-59cac3e0d2c7}</Project>
+      <Name>Tyuiu.SokolovaAA.Sprint0.Task6.V0.Lib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
